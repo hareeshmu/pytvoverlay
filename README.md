@@ -171,5 +171,5 @@ SOFTWARE.
 [releases-shield]: https://img.shields.io/github/release/hareeshmu/pytvoverlay.svg
 [releases]: https://github.com/hareeshmu/pytvoverlay/releases
 [semver]: http://semver.org/spec/v2.0.0.html
-[sonarcloud-shield]: https://sonarcloud.io/api/project_badges/measure?project=hareeshmu_tvoverlay&metric=alert_status
+[sonarcloud-shield]: https://sonarcloud.io/api/project_badges/measure?project=hareeshmu_pytvoverlay&metric=alert_status
 [sonarcloud]: https://sonarcloud.io/summary/new_code?id=hareeshmu_tvoverlay
