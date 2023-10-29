@@ -63,6 +63,9 @@ yamllint = "1.32.0"
 pytest-httpx = ">0.15,<1"
 isort = "^5.10.0"
 
+[tool.poetry.group.dev.dependencies]
+types-aiofiles = "^23.2.0.0"
+
 [tool.coverage.run]
 plugins = ["covdefaults"]
 source = ["tvoverlay"]

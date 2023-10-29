@@ -1476,6 +1476,17 @@ files = [
 ]
 
 [[package]]
+name = "types-aiofiles"
+version = "23.2.0.0"
+description = "Typing stubs for aiofiles"
+optional = false
+python-versions = "*"
+files = [
+    {file = "types-aiofiles-23.2.0.0.tar.gz", hash = "sha256:b6a7127bd232e0802532837b84140b1cd5df19ee60bea3a5699720d2b583361b"},
+    {file = "types_aiofiles-23.2.0.0-py3-none-any.whl", hash = "sha256:5d6719e8148cb2a9c4ea46dad86d50d3b675c46a940adca698533a8d2216d53d"},
+]
+
+[[package]]
 name = "types-cachetools"
 version = "5.3.0.7"
 description = "Typing stubs for cachetools"
@@ -1642,4 +1653,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d83f9ac50f304428f71b0c98164614b8c401008dc1e1a73726fa9b77ff5579bf"
+content-hash = "ceb479c0607a4e6411a7035c4593e5bbbd7c060e38600259a438f33122d6b052"
