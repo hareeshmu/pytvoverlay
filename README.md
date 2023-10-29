@@ -15,7 +15,7 @@
 
 [![Support Hareesh on Patreon][patreon-shield]][patreon]
 
-Asynchronous Python client for TvOverlay to send notifications to Android/Google TV.
+Python client for TvOverlay to send notifications to Android/Google TV.
 
 ## About
 
@@ -128,7 +128,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2023 Hareesh M U
+Copyright (c) 2019-2023 Hareesh M U
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
