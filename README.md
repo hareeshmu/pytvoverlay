@@ -167,8 +167,8 @@ SOFTWARE.
 [pre-commit]: https://pre-commit.com/
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [pypi]: https://pypi.org/project/tvoverlay/
-[python-versions-shield]: https://img.shields.io/pypi/pyversions/tvoverlay
-[releases-shield]: https://img.shields.io/github/release/hareeshmu/pytvoverlay.svg
+[python-versions-shield]: https://img.shields.io/pypi/pyversions/pytvoverlay
+[releases-shield]: https://img.shields.io/github/release/hareeshmu/pytvoverlay
 [releases]: https://github.com/hareeshmu/pytvoverlay/releases
 [semver]: http://semver.org/spec/v2.0.0.html
 [sonarcloud-shield]: https://sonarcloud.io/api/project_badges/measure?project=hareeshmu_pytvoverlay&metric=alert_status
