@@ -33,17 +33,23 @@ pip install tvoverlay
 ```python
 import asyncio
 
-from wled import WLED
+from tvoverlay import ConnectError, Notifications
 
+HOST = "10.10.10.150"
 
 async def main() -> None:
-    """Show example on controlling your WLED device."""
-    async with WLED("wled-frenck.local") as led:
-        device = await led.update()
-        print(device.info.version)
+    """Run the example script."""
+    notifier = Notifications(HOST)
 
-        # Turn strip on, full brightness
-        await led.master(on=True, brightness=255)
+    # validate connection
+    try:
+        response = await notifier.async_connect()
+        print(response)
+    except ConnectError:
+        print("Connect Error")
+
+    # send notification
+    print(await notifier.async_send("This is a notification message"))
 
 
 if __name__ == "__main__":
