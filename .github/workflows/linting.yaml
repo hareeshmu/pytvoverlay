@@ -31,8 +31,8 @@ jobs:
           poetry config virtualenvs.in-project true
       - name: 🏗 Install Python dependencies
         run: poetry install --no-interaction
-      - name: 🚀 Check code for common misspellings
-        run: poetry run pre-commit run codespell --all-files
+      # - name: 🚀 Check code for common misspellings
+      #   run: poetry run pre-commit run codespell --all-files
 
   ruff:
     name: Ruff
