@@ -31,8 +31,6 @@ jobs:
           poetry config virtualenvs.in-project true
       - name: 🏗 Install Python dependencies
         run: poetry install --no-interaction
-      # - name: 🚀 Check code for common misspellings
-      #   run: poetry run pre-commit run codespell --all-files
 
   ruff:
     name: Ruff
@@ -124,8 +122,6 @@ jobs:
         run: poetry run pre-commit run check-yaml --all-files
       - name: 🚀 Detect Private Keys
         run: poetry run pre-commit run detect-private-key --all-files
-      # - name: 🚀 Check End of Files
-      #   run: poetry run pre-commit run end-of-file-fixer --all-files
       - name: 🚀 Trim Trailing Whitespace
         run: poetry run pre-commit run trailing-whitespace --all-files
 
