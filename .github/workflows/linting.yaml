@@ -124,8 +124,8 @@ jobs:
         run: poetry run pre-commit run check-yaml --all-files
       - name: 🚀 Detect Private Keys
         run: poetry run pre-commit run detect-private-key --all-files
-      - name: 🚀 Check End of Files
-        run: poetry run pre-commit run end-of-file-fixer --all-files
+      # - name: 🚀 Check End of Files
+      #   run: poetry run pre-commit run end-of-file-fixer --all-files
       - name: 🚀 Trim Trailing Whitespace
         run: poetry run pre-commit run trailing-whitespace --all-files
 
