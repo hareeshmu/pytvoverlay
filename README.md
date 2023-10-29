@@ -1,4 +1,4 @@
-# Python: TvOverlay notifications for Android/Google TV Client
+# Python: TvOverlay Client for Android/Google TV
 
 [![GitHub Release][releases-shield]][releases]
 [![Python Versions][python-versions-shield]][pypi]
