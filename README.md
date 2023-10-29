@@ -158,7 +158,7 @@ SOFTWARE.
 [hareeshmu]: https://github.com/hareeshmu
 [github-sponsors-shield]: https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white&labelColor=181717&style=flat-square
 [github-sponsors]: https://github.com/sponsors/hareeshmu
-[license-shield]: https://img.shields.io/github/license/hareeshmu/pytvoverlay.svg
+[license-shield]: https://img.shields.io/github/license/hareeshmu/pytvoverlay
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [patreon-shield]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dhareeshmu%26type%3Dpatrons&style=flat
 [patreon]: https://www.patreon.com/hareeshmu
